@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("nihak/nodeapp")
+        app = docker.build("niha/nodeapp")
     }
 
     stage('Test image') {
