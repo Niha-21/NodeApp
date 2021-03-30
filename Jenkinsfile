@@ -4,8 +4,8 @@ node {
     stage('Clone repository') {
         /* Cloning the Repository to our Workspace */
 
-        git "https://github.com/Niha-21/NodeApp.git"
-        /*checkout scm*/
+        // git "https://github.com/Niha-21/NodeApp.git"
+        checkout scm
     }
 
     stage('Build image') {
